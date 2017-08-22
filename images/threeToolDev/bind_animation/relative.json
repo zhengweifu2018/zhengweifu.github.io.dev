@@ -1,0 +1,7 @@
+[{
+	"name": "maya批量修改工具",
+	"imagePath": "maya批量修改工具.jpg",
+	"scriptPath": "batchExecuteMayaFiles_core.py",
+	"bgColor": "#000000",
+	"type": "python"
+}]

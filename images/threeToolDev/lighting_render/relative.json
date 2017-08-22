@@ -1,0 +1,37 @@
+[{
+	"name": "分层插件",
+	"imagePath": "分层插件.jpg",
+	"scriptPath": "Output_Pass_Tool_new.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "分层插件全局修改",
+	"imagePath": "分层插件全局修改.jpg",
+	"scriptPath": "Global_ModifyShaders.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "贴图管理插件",
+	"imagePath": "贴图管理插件.jpg",
+	"scriptPath": "TextureManageMaster.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "细分代理插件",
+	"imagePath": "细分代理插件.jpg",
+	"scriptPath": "Addmentalraysubdivisionproxy.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "渲染检查插件",
+	"imagePath": "渲染检查插件.jpg",
+	"scriptPath": "CheckRenderSeting.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "自定义材质管理插件",
+	"imagePath": "自定义材质管理插件.jpg",
+	"scriptPath": "Shader_Tool.py",
+	"bgColor": "#000000",
+	"type": "python"
+}]

@@ -1,0 +1,17 @@
+[{
+	"name": "maya批量修改工具",
+	"imagePath": "maya批量修改工具.jpg",
+	"scriptPath": "batchExecuteMayaFiles_core.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "MeshForThreejs",
+	"imagePath": "MeshForThreejs.jpg",
+	"scriptPath": "meshFileManager.py",
+	"bgColor": "#000000",
+	"type": "python"
+}, {
+	"name": "tactic管理",
+	"imagePath": "tactic.jpg",
+	"bgColor": "#000000"
+}]

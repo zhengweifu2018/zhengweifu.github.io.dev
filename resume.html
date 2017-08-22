@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta></head><body><style>
+          html,body,div,p{margin:0;padding:0}
+          body{font-size:14px;font-family:"microsoft yahei";background-color:#ffffff}
+          table{border-collapse:collapse;border-spacing:0;table-layout:fixed}
+          th,td{font-size:14px;padding:0}
+          a{text-decoration:none}
+          img{border:0 none}
+          .blue{text-decoration:none;color:#3c3d5d}
+          .chead{width:1002px}
+          .chead .logo{width:698px;height:90px}
+          .chead .txt{width:152px;height:90px}
+          .column{width:1002px;line-height:28px;border:1px solid #dedede}
+          .column .hbox{width:185px;height:154px}
+          .column .head{display:block;background-color:#fafafa}
+          .column .box{width:100%;background-color:#ffffff;border-top:2px solid #f2f3f5}
+          .column .box1{width:100%;word-wrap:break-word;color:#ffffff;background-color:#3f4160}
+          .column .box2{width:100%;background-color:#f8f9fa}
+          .column .tba{width:940px;padding:0 30px 15px}
+          .column .tbb{width:940px;padding:0 30px}
+          .column .tb1{width:900px;line-height:28px;color:#333333;word-break:break-all;padding:0 20px}
+          .column .tb2{width:430px;padding:0 20px}
+          .column .tb3{width:900px;padding:15px 20px 15px 0}
+          .column .gray,.column .gray2{color:#999999;word-break:break-all}
+          .column .gray2{color:#666666}
+          .column .plate1,.column .plate2{width:430px;height:54px;font-size:16px;font-weight:bold;color:#818ba3}
+          .column .plate1{width:900px;padding:0 50px}
+          .column .plate1 .f16{font-size:14px;font-weight:normal;color:#333333}
+          .column .plate1 .f12{font-size:12px;font-weight:normal;color:#999999}
+          .column .keys,.column .keys2{width:85px;line-height:28px;color:#666666}
+          .column .keys2{width:110px}
+          .column .txt1,.column .txt2,.column .txt3{width:815px;line-height:28px;color:#333333;word-break:break-all}
+          .column .txt2{width:345px}
+          .column .txt3{width:auto;max-width:815px;font-size:14px;font-weight:bold}
+          .column .txt4{width:305px;color:#ffffff;word-break:break-all}
+          .column .infr{width:767px;color:#ffffff;table-layout:auto}
+          .column .vam,.column .grcha{vertical-align:middle;margin-left:5px}
+          .column .box1 .vam{margin-right:5px;margin-left:0}
+          .column .name{font-size:24px;padding-bottom:18px}
+          .column .icard{color:#a1a3ae;padding-bottom:18px}
+          .column .con{border-top:1px dotted #ddd}
+          .column .pr20{width:225px;padding-right:20px}
+          .column .time{width:120px;line-height:28px;color:#666666;padding-left:20px}
+          .column .rtbox{width:765px;line-height:28px;color:#333333;padding:0 20px 0 15px;word-break:break-all}
+          .column .hai,.column .guan{line-height:18px;font-size:12px;color:#ffffff;vertical-align:text-top;margin-left:5px;padding:1px 3px;background-color:#3cbe7f;border-radius:2px}
+          .column .guan{background-color:#ff9f20}
+          .column .tag{display:inline-block;word-break:break-all;#display:inline;#zoom:1}
+          .column .all{color:#666;padding:10px 20px;background-color:#fafafa}
+          .column .tit{width:900px;height:40px;color:#666666;padding:0 20px;background-color:#f5f5f5}
+          .column .p15{padding:15px 0}
+          .column .p5{display:inline-block;color:#666666;padding:0 5px;#display:inline;#zoom:1}
+          .column .cell .skill{width:165px;text-align:right;padding-right:15px}
+          .column .cell .skbg,.column .cell .skco{display:inline-block;width:245px;height:18px;line-height:18px;font-size:12px;color:#ffffff;vertical-align:top;margin-top:6px;background-color:#dddddd;border-radius:20px;#display:inline;#zoom:1}
+          .column .cell .skco{width:235px;font-style:normal;margin-top:0;padding-left:10px;background-color:#ff9f20;z-index:3}
+          .column .sl .skco{width:173px}
+          .column .lh .skco{width:112px}
+          .column .yb .skco{width:51px}
+          .column .fbox strong{font-size:14px;font-weight:bold}
+          .column .cha{font-size:12px;font-weight:normal;color:#00457d;margin-left:5px}
+          .column .cha:hover{color:#ff6000}
+          .column .email{width:330px}
+
+          .eng td,.eng .txt3,.eng .fbox strong{font-size:13px;font-family:'Arial'}
+          .eng .txt1,.eng .rtbox,.eng .phd{width:775px;font-size:13px;font-family:'Arial';line-height:28px}
+          .eng .txt2{width:305px}
+          .eng .txt4{width:245px}
+          .eng .cell .txt3{width:120px}
+          .eng .time,.eng .keys{width:110px;font-size:13px;text-align:right}
+          .eng .cell .skill{width:130px}
+          .eng .phd{padding-left:145px}
+          .eng .keys{padding-right:15px}
+          .eng .pr20{width:205px}
+          .eng .pr20 .keys{width:100px}
+          .eng .email{width:270px}
+        </style><table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column"><tbody><tr><td valign="top"><table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box1"><tbody><tr>
+<td class="hbox" align="middle"><img src="./images/man.jpg" width="85" height="104" class="head"></td>
+<td><table cellspacing="0" cellpadding="0" border="0" class="infr"><tbody>
+<tr>
+<td colspan="2" class="name">郑卫福</td>
+</tr>
+<tr>
+<td valign="top">
+<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20">目前正在找工作</td>
+<td valign="top">
+<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20">15221856396</td>
+<td valign="top"><table cellspacing="0" cellpadding="0" border="0" class="email"><tbody><tr>
+<td valign="top" width="25"><img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y3.png" width="20" height="20"></td>
+<td valign="top" class="txt4">651999307@qq.com</td>
+</tr></tbody></table></td>
+</tr>
+<tr><td valign="top" colspan="3"><p><img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y4.png" width="20" height="20">男<span class="p5">|</span>32 岁 (1984/11/17)<span class="p5">|</span>现居住上海-松江区<span class="p5">|</span>10年工作经验
+                    </p></td></tr>
+</tbody></table></td>
+</tr></tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box2"><tbody><tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="tb2"><table cellspacing="0" cellpadding="0" border="0">
+<thead style="height:0"><tr>
+<td valign="top" class="keys"></td>
+<td valign="top" class="txt2"></td>
+</tr></thead>
+<tbody>
+<tr><td colspan="2" class="plate2">最近工作</td></tr>
+<tr>
+<td valign="top" class="keys">职位：</td>
+<td valign="top" class="txt2">webgl工程师＋前端工程师</td>
+</tr>
+<tr>
+<td valign="top" class="keys">公司：</td>
+<td valign="top" class="txt2">上海曼晟网络科技有限公司</td>
+</tr>
+<tr>
+<td valign="top" class="keys">行业：</td>
+<td valign="top" class="txt2">互联网/电子商务</td>
+</tr>
+</tbody>
+</table></td>
+<td valign="top" class="tb2"><table cellspacing="0" cellpadding="0" border="0">
+<thead style="height:0"><tr>
+<td valign="top" class="keys"></td>
+<td valign="top" class="txt2"></td>
+</tr></thead>
+<tbody>
+<tr><td colspan="2" class="plate2">最高学历/学位</td></tr>
+<tr>
+<td valign="top" class="keys">专业：</td>
+<td valign="top" class="txt2">艺术设计</td>
+</tr>
+<tr>
+<td valign="top" class="keys">学校：</td>
+<td valign="top" class="txt2">南昌大学</td>
+</tr>
+<tr>
+<td valign="top" class="keys">学历/学位：</td>
+<td valign="top" class="txt2">本科</td>
+</tr>
+</tbody>
+</table></td>
+</tr></tbody></table></td></tr></tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
+<tr><td class="plate1">个人信息</td></tr>
+<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">QQ号：
+                                  </td>
+<td valign="top" class="txt2">651999307</td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">户口/国籍：</td>
+<td valign="top" class="txt2">上饶</td>
+</tr></tbody></table></td>
+</tr>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">婚姻状况：</td>
+<td valign="top" class="txt2">已婚</td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">家庭地址：</td>
+<td valign="top" class="txt2">上海-松江区
+                                      (邮编：320011)
+                                    </td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top">&nbsp;</td>
+</tr>
+</tbody></table></td></tr>
+</tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody><tr><td class="plate1">
+              目前年收入
+              <span>&nbsp;35万元</span><span class="f12">（包含基本工资、补贴、奖金、股权收益等）</span>
+</td></tr></tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
+<tr><td class="plate1">求职意向</td></tr>
+<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0">
+<thead style="height:0"><tr>
+<td valign="top" class="keys"></td>
+<td valign="top" class="txt1"></td>
+</tr></thead>
+<tbody><tr>
+<td valign="top" class="keys">个人标签：</td>
+<td valign="top" class="txt1">
+<span class="tag">TD&nbsp;</span><span class="tag">RD&nbsp;</span><span class="tag">WebGL&nbsp;</span><span class="tag">前端&nbsp;</span><span class="tag">unity3d&nbsp;</span><span class="tag">unreal</span>
+</td>
+</tr></tbody>
+</table></td></tr>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">期望薪资：</td>
+<td valign="top" class="txt2">面议</td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">地点：</td>
+<td valign="top" class="txt2"><span class="tag">上海</span></td>
+</tr></tbody></table></td>
+</tr>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">职能：</td>
+<td valign="top" class="txt2">
+<span class="tag">动画/3D设计&nbsp;</span><span class="tag">多媒体/游戏开发工程师</span>
+</td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">行业：</td>
+<td valign="top" class="txt2"><span class="tag">影视/媒体/艺术/文化传播</span></td>
+</tr></tbody></table></td>
+</tr>
+<tr>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">到岗时间：</td>
+<td valign="top" class="txt2">1个月内</td>
+</tr></tbody></table></td>
+<td class="tb2" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作类型：</td>
+<td valign="top" class="txt2">全职</td>
+</tr></tbody></table></td>
+</tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0">
+<thead style="height:0"><tr>
+<td valign="top" class="keys"></td>
+<td valign="top" class="txt1"></td>
+</tr></thead>
+<tbody><tr>
+<td valign="top" class="keys">自我评价：</td>
+<td valign="top" class="txt1">本人知识比较广泛，熟悉计算机软件开发，实际操作能力强。工作上积极向上，适应性强。性格开朗，善于与人沟通，乐于助人。工作认真、负责，具有很强的责任心和进取心，并具有较强的团队合作意识，服从管理。希望在不断的学习和工作中充实和完善自己，更好的把握发展的契机。</td>
+</tr></tbody>
+</table></td></tr>
+</tbody></table></td></tr>
+</tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
+<tr><td class="plate1">工作经验</td></tr>
+<tr><td class="tbb"><table cellspacing="0" cellpadding="0" border="0">
+<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2016/6-至今</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">webgl工程师＋前端工程师</strong><span class="p5">|</span><span>研发部</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>上海曼晟网络科技有限公司</span><span class="gray">&nbsp;[1年2个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">互联网/电子商务<span class="p5">|</span>民营公司</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">1.网站（www.ignjewelry.com）开发技术选定及方向把控。<br>2.网站（www.ignjewelry.com）webgl在线珠宝定制编辑器实现。<br>3.react.js&#x20;+&#x20;webpack技术研发与维护。<br>4.公司git平台维护。<br>5.webgl算法及框架开发。<br>6.unreal&#x20;vr虚拟珠宝店项目研发。<br>7.ignite线下贩卖机app开发。<br>8.使用php编写接口。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2012/10-2016/5</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">图形开发工程师</strong><span class="p5">|</span><span>研发部</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>上海曼恒数字技术有限公司</span><span class="gray">&nbsp;[3年7个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">计算机软件<span class="p5">|</span>150-500人<span class="p5">|</span>民营公司</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">1.&#x20;开发DVS3D虚拟现实软件。<br>2.&#x20;使用dvs3D指导开发制作新项目。<br>3.&#x20;创作部门制作流程和制作规范。<br>4.&#x20;创作部maya&#x20;和&#x20;max&#x20;工具开发。<br>5.&#x20;tactic项目管理软件搭建和维护。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2011/3-2012/10</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">R&amp;D工程师</strong><span class="p5">|</span><span>R&amp;D</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>上海明器多媒体科技有限公司</span><span class="gray">&nbsp;[1年7个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">影视/媒体/艺术/文化传播<span class="p5">|</span>150-500人<span class="p5">|</span>民营公司</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">在影视制作负责流程管理、研究新工具、开发新工具、管理渲染农场。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2009/4-2011/3</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">灯光渲染师</strong><span class="p5">|</span><span>生产部</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>上海河马动画设计有限公司</span><span class="gray">&nbsp;[1年11个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">影视/媒体/艺术/文化传播<span class="p5">|</span>150-500人<span class="p5">|</span>民营公司</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">在项目制作中负责灯光、渲染、合成、技术指导以及工具开发。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2008/8-2008/12</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">建模贴图师</strong><span class="p5">|</span><span>生产部</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>派德动漫有限公司</span><span class="gray">&nbsp;[4个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">影视/媒体/艺术/文化传播<span class="p5">|</span>少于50人<span class="p5">|</span>民营公司</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">在制作三维项目过程中建模贴图的制作。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2007/7-2008/2</td>
+<td valign="top" class="rtbox">
+<strong class="txt3">建模贴图师</strong><span class="p5">|</span><span>生产部</span>
+</td>
+</tr>
+<tr><td class="phd tb1" colspan="2">
+<span>南昌大学数字媒体研究所</span><span class="gray">&nbsp;[7个月]
+                    </span>
+</td></tr>
+<tr><td class="phd tb1 gray2" colspan="2">影视/媒体/艺术/文化传播<span class="p5">|</span>50-150人</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">工作描述：</td>
+<td valign="top" class="txt1">在制作三维项目过程中建模贴图的制作。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+</table></td></tr>
+</tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
+<tr><td class="plate1">项目经验</td></tr>
+<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0">
+<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2012/10-至今</td>
+<td valign="top" class="rtbox"><strong>webgl软件开发</strong></td>
+</tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">项目描述：</td>
+<td valign="top" class="txt1">c++,&#x20;python,javascript,&#x20;php,&#x20;maxscript(开发工具)<br>dvs3d&#x20;maya&#x20;max(软件环境)1.&#x20;和研发组一起开发三维虚拟引擎dvs3d（研发部。<br>2.&#x20;开发上体体感交换项目（研发部）。<br>3.&#x20;tactic项目管理软件搭建管理（创作部）。<br>4.&#x20;Deadline渲染农场搭建维护（创作部）。<br>5&#x20;maya&#x20;脚本开发和流程管理（创作部）。<br>6.&#x20;max&#x20;脚本开发和流程管理（创作部）。<br>7.&#x20;www.ignjewelry.com网站webgl编辑器开发（研发部）。</td>
+</tr></tbody></table></td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">责任描述：</td>
+<td valign="top" class="txt1">www.ignjewelry.com网站上webgl项目负责</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2011/7-2012/10</td>
+<td valign="top" class="rtbox"><strong>郑和</strong></td>
+</tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">项目描述：</td>
+<td valign="top" class="txt1">python(开发工具)<br>maya(软件环境)动画电影郑和,&#x20;动画电影赛尔号2</td>
+</tr></tbody></table></td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">责任描述：</td>
+<td valign="top" class="txt1">在动画电影郑和、赛尔号2中负责技术指导（TD）和工具开发（RD）工作。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+<tr><td class="p15 con"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2009/4-2011/3</td>
+<td valign="top" class="rtbox"><strong>超蛙战士</strong></td>
+</tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">项目描述：</td>
+<td valign="top" class="txt1">maya&#x20;zb&#x20;nuke(软件环境)超蛙战士</td>
+</tr></tbody></table></td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">责任描述：</td>
+<td valign="top" class="txt1">在电影《超蛙战士》及电视剧《超蛙战士》中负责灯光，分层渲染，预合成工作。</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr>
+</table></td></tr>
+</tbody></table>
+<table xmlns="" class="box"><tbody>
+<tr><td class="plate1">教育经历</td></tr>
+<tr><td class="tba"><table cellspacing="0" cellpadding="0" border="0"><tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr>
+<td valign="top" class="time">2005/9-2009/7</td>
+<td valign="top" class="rtbox"><strong>南昌大学</strong></td>
+</tr>
+<tr><td class="tb1" colspan="2">本科<span class="p5">|</span>艺术设计</td></tr>
+<tr><td class="tb1" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td valign="top" class="keys">专业描述：</td>
+<td valign="top" class="txt1">主修平面设计&#x20;动漫制作&#x20;后期渲染&#x20;电脑美术(&#x20;webgl&#x20;)</td>
+</tr></tbody></table></td></tr>
+</tbody></table></td></tr></table></td></tr>
+</tbody></table>
+<table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box"><tbody>
+<tr><td class="plate1">
+              技能特长
+              <span class="f12">（包括IT技能、语言能力、证书、成绩、培训经历）</span>
+</td></tr>
+<tr><td class="tbb"><table cellspacing="0" cellpadding="0" border="0"><tbody>
+<tr><td class="tit">技能/语言</td></tr>
+<tr><td class="p15"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="tb2 cell lh" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td class="skill"><strong class="txt3">英语</strong></td>
+<td valign="top"><span class="skbg"><span class="skco">良好</span></span></td>
+</tr></tbody></table></td>
+</tbody></table></td></tr>
+</tbody></table></td></tr>
+</tbody></table>
+</body></html>

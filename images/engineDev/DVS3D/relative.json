@@ -1,0 +1,9 @@
+[{
+	"name": "DVS3D软件1",
+	"imagePath": "a.jpg",
+	"bgColor": "#000000"
+}, {
+	"name": "DVS3D软件2",
+	"imagePath": "b.jpg",
+	"bgColor": "#000000"
+}]

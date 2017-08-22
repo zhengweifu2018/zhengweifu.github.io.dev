@@ -1,0 +1,7 @@
+[{
+	"name": "模型检查工具",
+	"imagePath": "模型检查工具.jpg",
+	"scriptPath": "checkingBox.py",
+	"bgColor": "#000000",
+	"type": "python"
+}]
