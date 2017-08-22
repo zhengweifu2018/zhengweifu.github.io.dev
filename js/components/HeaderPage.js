@@ -26,6 +26,10 @@ class HeaderPage extends React.Component {
 
 	}
 
+		// <Menu.Item key="main">
+		// 	首页
+		// </Menu.Item>
+
   	render() {
 		return <Menu
 			selectedKeys={[this.props.selected]}
@@ -33,9 +37,6 @@ class HeaderPage extends React.Component {
 			onClick={this.onClickHandle.bind(this)}
 			style={{ lineHeight: '64px' }}
 		>
-			<Menu.Item key="main">
-				首页
-			</Menu.Item>
 			<Menu.Item key="work">
 				工作
 			</Menu.Item>

@@ -27,7 +27,7 @@ import ThreeEngineUnrealPage from './components/Work/ThreeEngineUnrealPage';
 
 let App = (props) => {
 	return <div>
-		<Route exact path='/' component={IndexPage} />
+		<Route exact path='/' component={ThreeMakePage} />
 		<Route exact path='/resume' component={ResumePage} />
 		<Route exact path='/work/threemake' component={ThreeMakePage}/>
 		<Route exact path='/work/threemodeltool' component={ThreeModelToolPage}/>
