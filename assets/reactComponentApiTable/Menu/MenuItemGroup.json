@@ -1,0 +1,11 @@
+[{
+  "parameter": "label",
+  "intrduce": "内容",
+  "type": "string",
+  "default": "MenuItemGroup"
+}, {
+  "parameter": "icon",
+  "intrduce": "左边图标",
+  "type": "Icon",
+  "default": "-"
+}]

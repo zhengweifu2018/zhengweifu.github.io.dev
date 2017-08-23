@@ -1,0 +1,96 @@
+[{
+  "parameter": "style",
+  "intrduce": "根节点样式",
+  "type": "object",
+  "default": "-"
+}, {
+  "parameter": "padding",
+  "intrduce": "边框大小",
+  "type": "number",
+  "default": 5
+}, {
+  "parameter": "fullWidth",
+  "intrduce": "宽度充满父节点",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "hoverColor",
+  "intrduce": "鼠标滑过颜色",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "Color",
+  "intrduce": "图标颜色",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "hoverColor",
+  "intrduce": "鼠标滑过颜色，type=default时起作用",
+  "type": "string",
+  "default": "GREY300"
+}, {
+  "parameter": "Icon",
+  "intrduce": "图标",
+  "type": "Icon",
+  "default": "-"
+}, {
+  "parameter": "toggle",
+  "intrduce": "是否启用toggle功能",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "toggled",
+  "intrduce": "是否启用toggle, toggle=true时起作用",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "toggledColor",
+  "intrduce": "toggled的颜色, toggle=true时起作用",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "disable",
+  "intrduce": "是否禁用",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "isLimitClickUp",
+  "intrduce": "是否禁用弹起",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "onClick",
+  "intrduce": "点击时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseDown",
+  "intrduce": "鼠标按下时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseUp",
+  "intrduce": "鼠标释放时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseEnter",
+  "intrduce": "鼠标进入时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseEnter",
+  "intrduce": "鼠标进入时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onTouchStart",
+  "intrduce": "触屏按下时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onTouchEnd",
+  "intrduce": "触屏释放时调用",
+  "type": "function(event)",
+  "default": "-"
+}]

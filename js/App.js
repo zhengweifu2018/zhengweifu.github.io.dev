@@ -16,14 +16,24 @@ import ThreeLightingRenderToolPage from './components/Work/ThreeLightingRenderTo
 import ThreeBindAnimationToolPage from './components/Work/ThreeBindAnimationToolPage';
 import ThreeOtherToolPage from './components/Work/ThreeOtherToolPage';
 
+
+// web
+import WebGLPage from './components/Work/WebGLPage';
+
 import MenuPage from './components/Work/React/MenuPage';
 import ButtonPage from './components/Work/React/ButtonPage';
 import IconPage from './components/Work/React/IconPage';
+
+// server
+import PhpPage from './components/Work/PhpPage';
 
 // engine
 import ThreeEngineDVS3DPage from './components/Work/ThreeEngineDVS3DPage';
 import ThreeEngineUnity3DPage from './components/Work/ThreeEngineUnity3DPage';
 import ThreeEngineUnrealPage from './components/Work/ThreeEngineUnrealPage';
+
+//
+import AIPage from './components/Work/AIPage';
 
 let App = (props) => {
 	return <div>
@@ -34,12 +44,15 @@ let App = (props) => {
 		<Route exact path='/work/threeLRtool' component={ThreeLightingRenderToolPage}/>
 		<Route exact path='/work/threeBAtool' component={ThreeBindAnimationToolPage}/>
 		<Route exact path='/work/threeothertool' component={ThreeOtherToolPage}/>
+		<Route exact path='/work/webgl' component={WebGLPage}/>
 		<Route exact path='/work/reactmenu' component={MenuPage}/>
 		<Route exact path='/work/reactbutton' component={ButtonPage}/>
 		<Route exact path='/work/reacticon' component={IconPage}/>
+		<Route exact path='/work/php' component={PhpPage}/>
 		<Route exact path='/work/enginedvs3d' component={ThreeEngineDVS3DPage}/>
 		<Route exact path='/work/engineunity3d' component={ThreeEngineUnity3DPage}/>
 		<Route exact path='/work/engineunreal' component={ThreeEngineUnrealPage}/>
+		<Route exact path='/work/ai' component={AIPage}/>
 	</div>
 }
 

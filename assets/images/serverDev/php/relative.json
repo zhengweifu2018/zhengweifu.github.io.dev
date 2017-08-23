@@ -1,0 +1,33 @@
+[{
+	"name": "后台登入系统",
+	"imagePath": "后台登入系统.jpg",
+	"scriptPath": "LoginController.class",
+	"bgColor": "#ffffff",
+	"type": "php"
+}, {
+	"name": "后台banner管理",
+	"imagePath": "后台banner管理.jpg",
+	"scriptPath": "CommonController.class",
+	"bgColor": "#ffffff",
+	"type": "php"
+}, {
+	"name": "后台数据库字段管理",
+	"imagePath": "后台数据库字段管理.jpg",
+	"scriptPath": "EmptyController.class",
+	"bgColor": "#ffffff",
+	"type": "php"
+}, {
+	"name": "后台简衣产品库管理",
+	"imagePath": "后台简衣产品库管理.jpg",
+	"scriptPath": "OtherController.class",
+	"bgColor": "#ffffff",
+	"type": "php"
+}, {
+	"name": "后台简衣素材库管理",
+	"imagePath": "后台简衣素材库管理.jpg",
+	"bgColor": "#ffffff"
+}, {
+	"name": "后台颜色库管理",
+	"imagePath": "后台颜色库管理.jpg",
+	"bgColor": "#ffffff"
+}]

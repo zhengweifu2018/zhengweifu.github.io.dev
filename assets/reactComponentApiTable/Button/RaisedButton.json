@@ -1,0 +1,132 @@
+[{
+  "parameter": "type",
+  "intrduce": "类型",
+  "type": "string: default, primary, danger",
+  "default": "default"
+}, {
+  "parameter": "style",
+  "intrduce": "根节点样式",
+  "type": "object",
+  "default": "-"
+}, {
+  "parameter": "styleButton",
+  "intrduce": "按钮样式",
+  "type": "object",
+  "default": "-"
+}, {
+  "parameter": "bgColor",
+  "intrduce": "背景颜色，type=default时起作用",
+  "type": "string",
+  "default": "GREY100"
+}, {
+  "parameter": "hoverColor",
+  "intrduce": "鼠标滑过颜色，type=default时起作用",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "fullWidth",
+  "intrduce": "宽度充满父节点",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "label",
+  "intrduce": "按钮标签名字",
+  "type": "string",
+  "default": "Default"
+}, {
+  "parameter": "labelColor",
+  "intrduce": "标签文字颜色，type=default时起作用",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "hoverColor",
+  "intrduce": "鼠标滑过颜色，type=default时起作用",
+  "type": "string",
+  "default": "GREY300"
+}, {
+  "parameter": "size",
+  "intrduce": "按钮大小",
+  "type": "string: custom, large, small, mini",
+  "default": "custom"
+}, {
+  "parameter": "fontSize",
+  "intrduce": "标签文字大小，size=custom时起作用",
+  "type": "number",
+  "default": 13
+}, {
+  "parameter": "fontFamily",
+  "intrduce": "标签字体",
+  "type": "string",
+  "default": "\"Microsoft yahei\", Tahoma, Verdana, Arial, sans-serif"
+}, {
+  "parameter": "leftIcon",
+  "intrduce": "左边图标",
+  "type": "Icon",
+  "default": "-"
+}, {
+  "parameter": "rightIcon",
+  "intrduce": "右边图标",
+  "type": "Icon",
+  "default": "-"
+}, {
+  "parameter": "toggle",
+  "intrduce": "是否启用toggle功能",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "toggled",
+  "intrduce": "是否启用toggle, toggle=true时起作用",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "toggledColor",
+  "intrduce": "toggled的颜色, toggle=true时起作用",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "disable",
+  "intrduce": "是否禁用",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "isLoading",
+  "intrduce": "是否使用loading",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "onClick",
+  "intrduce": "点击时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseDown",
+  "intrduce": "鼠标按下时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseUp",
+  "intrduce": "鼠标释放时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseEnter",
+  "intrduce": "鼠标进入时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onMouseEnter",
+  "intrduce": "鼠标进入时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onTouchStart",
+  "intrduce": "触屏按下时调用",
+  "type": "function(event)",
+  "default": "-"
+}, {
+  "parameter": "onTouchEnd",
+  "intrduce": "触屏释放时调用",
+  "type": "function(event)",
+  "default": "-"
+}]
+

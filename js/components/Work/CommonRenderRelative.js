@@ -21,10 +21,18 @@ class CommonRenderRelative extends Component {
 			const data = res.data;
 			for(const d of data) {
 				// console.log(d);
-				let each = {name: d.name, imagePath: relativeDir + d.imagePath, bgColor: d.bgColor, type: d.type}
+				let each = {name: d.name, bgColor: d.bgColor, type: d.type}
+				if(this.props.useIframe) {
+					each.webPath = d.webPath;
+					each.webHeight = d.webHeight;
+				} else {
+					each.imagePath = relativeDir + d.imagePath;
+				}
+				// console.log(relativeDir + d.scriptPath)
 				if(d.scriptPath !== undefined) {
 					axios.get(relativeDir + d.scriptPath).then((res) => {
 						each.code = res.data;
+						// console.log(res.data);
 						let scripts = this.state.scripts;
 						scripts.push(each);
 						this.setState({scripts: scripts});
@@ -40,17 +48,28 @@ class CommonRenderRelative extends Component {
 
 	static propTypes = {
 		relativePathName: PropTypes.string.isRequired,
-		relativeFileName: PropTypes.string.isRequired
+		relativeFileName: PropTypes.string.isRequired,
+		useIframe: PropTypes.bool
 	};
 
-	static defaultProps = {};
+	static defaultProps = {
+		useIframe: false
+	};
 
 	renderItems() {
 		return this.state.scripts.map((item, index) => {
+			const contentElement = this.props.useIframe
+			? <iframe style={{
+					width: '100%',
+					height: item.webHeight
+				}} src={item.webPath} frameBorder="0" scrolling="no" marginWidth="0" marginHeight="0"></iframe>
+			: <div style={{textAlign: 'center', backgroundColor: item.bgColor}}><img src={item.imagePath} style={{maxWidth: '100%'}} /></div>;
+
 			const shl = item.code !== undefined ? 
 				<SyntaxHighlighter language={item.type} style={xcode}>{item.code}</SyntaxHighlighter> : undefined;
-			return <CodeBox key={index} title={item.name} codeComponent={shl}>
-	            <div style={{textAlign: 'center', backgroundColor: item.bgColor}}><img src={item.imagePath} style={{maxWidth: '100%'}} /></div>
+			
+			return <CodeBox key={index} title={item.name} codeComponent={shl} open={true}>
+	            {contentElement}
 	        </CodeBox>
 		});
 	}

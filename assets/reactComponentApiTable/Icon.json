@@ -1,0 +1,31 @@
+[{
+  "parameter": "color",
+  "intrduce": "图标颜色",
+  "type": "string",
+  "default": "GREY100"
+}, {
+  "parameter": "width",
+  "intrduce": "图标宽度",
+  "type": "number",
+  "default": 24
+}, {
+  "parameter": "height",
+  "intrduce": "图标高度",
+  "type": "number",
+  "default": 24
+}, {
+  "parameter": "viewBox",
+  "intrduce": "类似svg文件的viewBox",
+  "type": "string",
+  "default": "0 0 24 24"
+}, {
+  "parameter": "type",
+  "intrduce": "图标类型",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "style",
+  "intrduce": "设置图标的样式，例如 backgroundColor 和 color",
+  "type": "object",
+  "default": "-"
+}]

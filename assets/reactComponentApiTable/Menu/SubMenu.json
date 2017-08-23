@@ -1,0 +1,21 @@
+[{
+  "parameter": "label",
+  "intrduce": "内容",
+  "type": "string",
+  "default": "SubMenu"
+}, {
+  "parameter": "icon",
+  "intrduce": "左边图标",
+  "type": "Icon",
+  "default": "-"
+}, {
+  "parameter": "onClick",
+  "intrduce": "点击调用此函数",
+  "type": "function(event, item)",
+  "default": "-"
+}, {
+  "parameter": "open",
+  "intrduce": "是否展开",
+  "type": "bool",
+  "default": "false"
+}]

@@ -4,7 +4,11 @@ import WorkPage from '../WorkPage';
 
 import CodeBox from '../../CodeBox';
 
-import { Menu, SubMenu, MenuItem, MenuItemGroup, Icon, GridList } from 'zele-react';
+import { Menu, SubMenu, MenuItem, MenuItemGroup, Icon, GridList, Label } from 'zele-react';
+
+import ApiTable from './ApiTable';
+
+import { WEB_ROOT } from '../../../config';
 
 const MenuExampleHDark = [
     "import React from 'react';",
@@ -122,7 +126,7 @@ import { xcode } from 'react-syntax-highlighter/dist/styles';
 
 export default () => {
     return <WorkPage siderSelectedKey='3-2-1' breadcrunbs={['工作', '前端开发', 'React 组件', 'Menu 菜单']}>
-        <h2>代码演示</h2>
+        <div><Label content='演示' fontSize={20} height={40} color='#000'/></div>
         <CodeBox title='顶栏黑色' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{MenuExampleVDark}</SyntaxHighlighter>}>
             <Menu theme='dark'>
                 <MenuItem icon={<Icon type='gImage' />}/>
@@ -203,7 +207,10 @@ export default () => {
                 </Menu>
             </CodeBox>
         </GridList>
-        <h2>API</h2>
-        
+        <div><Label content='API' fontSize={20} height={40} color='#000'/></div>
+        <ApiTable pathName={`${WEB_ROOT}assets/reactComponentApiTable/Menu/`} fileName='Menu.json' title='Menu' titleSize={14}/>
+        <ApiTable pathName={`${WEB_ROOT}assets/reactComponentApiTable/Menu/`} fileName='SubMenu.json' title='SubMenu' titleSize={14}/>
+        <ApiTable pathName={`${WEB_ROOT}assets/reactComponentApiTable/Menu/`} fileName='MenuItemGroup.json' title='MenuItemGroup' titleSize={14}/>
+        <ApiTable pathName={`${WEB_ROOT}assets/reactComponentApiTable/Menu/`} fileName='MenuItem.json' title='MenuItem' titleSize={14}/>
     </WorkPage>
 };

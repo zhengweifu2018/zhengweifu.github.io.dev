@@ -1,0 +1,66 @@
+[{
+  "parameter": "mode",
+  "intrduce": "菜单类型，现在支持垂直和水平模式两种",
+  "type": "string: horizontal, vertical",
+  "default": "horizontal"
+}, {
+  "parameter": "theme",
+  "intrduce": "主题颜色",
+  "type": "string: dark, light, custom",
+  "default": "dark"
+}, {
+  "parameter": "bgColor",
+  "intrduce": "菜单背景颜色，mode='custom'起作用",
+  "type": "string",
+  "default": "GREY800"
+}, {
+  "parameter": "activeLevelIndex",
+  "intrduce": "选择到哪一层的ID",
+  "type": "number",
+  "default": -1
+}, {
+  "parameter": "activeParentIndex",
+  "intrduce": "被选择的上一层ID",
+  "type": "number",
+  "default": -1
+}, {
+  "parameter": "activeMemberIndex",
+  "intrduce": "被选择的当前层ID",
+  "type": "number",
+  "default": -1
+}, {
+  "parameter": "subBgColor",
+  "intrduce": "SubMenu背景颜色，mode='custom'起作用",
+  "type": "string",
+  "default": "GREY900"
+}, {
+  "parameter": "itemActiveBgColor",
+  "intrduce": "MenuItem被选择的颜色，mode='custom'起作用",
+  "type": "string",
+  "default": "BLUE600"
+}, {
+  "parameter": "itemColor",
+  "intrduce": "MenuItem颜色，mode='custom'起作用",
+  "type": "string",
+  "default": "GREY300"
+}, {
+  "parameter": "itemPadding",
+  "intrduce": "MenuItem左右缩进",
+  "type": "number",
+  "default": 20
+}, {
+  "parameter": "itemHeight",
+  "intrduce": "MenuItem高度",
+  "type": "number",
+  "default": 36
+}, {
+  "parameter": "itemFontSize",
+  "intrduce": "MenuItem文字大小",
+  "type": "number",
+  "default": 12
+}, {
+  "parameter": "itemFontFamily",
+  "intrduce": "MenuItem字体",
+  "type": "string",
+  "default": "\"Microsoft yahei\", Tahoma, Verdana, Arial, sans-serif"
+}]

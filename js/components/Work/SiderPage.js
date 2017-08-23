@@ -31,6 +31,9 @@ class SiderPage extends Component {
 			case '2-4':
 				webPath = '/work/threeothertool';
 				break;
+			case '3-1':
+				webPath = '/work/webgl';
+				break;
 			case '3-2-1':
 				webPath = '/work/reactmenu';
 				break;
@@ -40,6 +43,9 @@ class SiderPage extends Component {
 			case '3-2-3':
 				webPath = '/work/reacticon';
 				break;
+			case '4-1':
+				webPath = '/work/php';
+				break;
 			case '5-1':
 				webPath = '/work/enginedvs3d';
 				break;
@@ -48,6 +54,9 @@ class SiderPage extends Component {
 				break;
 			case '5-3':
 				webPath = '/work/engineunreal';
+				break;
+			case '6-1':
+				webPath = '/work/ai';
 				break;
 		}
 		window.location.href = '#' + webPath;
@@ -68,7 +77,6 @@ class SiderPage extends Component {
 			<SubMenu key="2" title={<span><Icon type="laptop" />三维工具开发</span>}>
 	            <Menu.Item key="2-1">模型</Menu.Item>
 	            <Menu.Item key="2-2">灯光 / 渲染</Menu.Item>
-	            <Menu.Item key="2-3">绑定 / 动画</Menu.Item>
 	            <Menu.Item key="2-4">杂项</Menu.Item>
           	</SubMenu>
 			<SubMenu key="3" title={<span><Icon type="laptop" />前端开发</span>}>
@@ -89,8 +97,6 @@ class SiderPage extends Component {
           	</SubMenu>
           	<SubMenu key="6" title={<span><Icon type="laptop" />平面工具开发</span>}>
 	            <Menu.Item key="6-1">AI</Menu.Item>
-	            <Menu.Item key="6-2">PS</Menu.Item>
-	            <Menu.Item key="6-3">其他</Menu.Item>
           	</SubMenu>
 		</Menu>
 	}

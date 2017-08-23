@@ -8,6 +8,6 @@ import { WEB_ROOT } from '../../config';
 
 export default () => {
 	return <WorkPage siderSelectedKey='2-3'  breadcrunbs={['工作', '三维工具开发', '绑定 & 动画']}>
-		<CommonRenderRelative relativePathName={`${WEB_ROOT}images/threeToolDev/bind_animation/`} relativeFileName='relative.json' />
+		<CommonRenderRelative relativePathName={`${WEB_ROOT}assets/images/threeToolDev/bind_animation/`} relativeFileName='relative.json' />
 	</WorkPage>
 };
