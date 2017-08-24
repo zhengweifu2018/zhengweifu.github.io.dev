@@ -5,8 +5,6 @@ import { HashRouter, Route, Link } from 'react-router-dom';
 
 import IndexPage from './components/IndexPage';
 
-import WorkPage from './components/Work/WorkPage';
-
 import ResumePage from './components/ResumePage';
 
 import ThreeMakePage from './components/Work/ThreeMakePage';
