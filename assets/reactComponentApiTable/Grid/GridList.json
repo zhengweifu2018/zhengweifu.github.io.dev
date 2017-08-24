@@ -1,0 +1,21 @@
+[{
+  "parameter": "cols",
+  "intrduce": "每行个数",
+  "type": "number",
+  "default": 2
+}, {
+  "parameter": "gutter",
+  "intrduce": "间隔大小，当cols >= 2时起作用",
+  "type": "number",
+  "default": 10
+}, {
+  "parameter": "center",
+  "intrduce": "子控件是否居中",
+  "type": "bool",
+  "default": "false"
+}, {
+  "parameter": "style",
+  "intrduce": "自定义样式",
+  "type": "object",
+  "default": "-"
+}]

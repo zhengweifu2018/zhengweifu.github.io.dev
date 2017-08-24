@@ -1,0 +1,32 @@
+[{
+  "parameter": "color",
+  "intrduce": "标签颜色",
+  "type": "string",
+  "default": "GREY500"
+}, {
+  "parameter": "height",
+  "intrduce": "标签高度",
+  "type": "number",
+  "default": 20
+}, {
+  "parameter": "content",
+  "intrduce": "标签内容",
+  "type": "string",
+  "default": "Label"
+}, {
+  "parameter": "fontSize",
+  "intrduce": "标签文字大小",
+  "type": "number",
+  "default": 13
+}, {
+  "parameter": "fontFamily",
+  "intrduce": "标签字体",
+  "type": "string",
+  "default": "\"Microsoft yahei\", Tahoma, Verdana, Arial, sans-serif"
+}, {
+  "parameter": "style",
+  "intrduce": "设置标签的样式，例如 backgroundColor 和 color",
+  "type": "object",
+  "default": "-"
+}]
+

@@ -127,7 +127,7 @@ import { xcode } from 'react-syntax-highlighter/dist/styles';
 export default () => {
     return <WorkPage siderSelectedKey='3-2-1' breadcrunbs={['工作', '前端开发', 'React 组件', 'Menu 菜单']}>
         <div><Label content='演示' fontSize={20} height={40} color='#000'/></div>
-        <CodeBox title='顶栏黑色' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{MenuExampleVDark}</SyntaxHighlighter>}>
+        <CodeBox title='顶栏黑色' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{MenuExampleVDark}</SyntaxHighlighter>}>
             <Menu theme='dark'>
                 <MenuItem icon={<Icon type='gImage' />}/>
                 <SubMenu icon={<Icon type='gBrush' />}>
@@ -144,7 +144,7 @@ export default () => {
                 </SubMenu>
             </Menu>
         </CodeBox>
-        <CodeBox title='顶栏亮色' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{MenuExampleHLight}</SyntaxHighlighter>}>
+        <CodeBox title='顶栏亮色' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{MenuExampleHLight}</SyntaxHighlighter>}>
             <Menu theme='light'>
                 <MenuItem icon={<Icon type='gImage' />}/>
                 <SubMenu icon={<Icon type='gBrush' />}>
@@ -162,7 +162,7 @@ export default () => {
             </Menu>
         </CodeBox>
         <GridList>
-            <CodeBox title='侧栏黑色' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{MenuExampleVLight}</SyntaxHighlighter>}>
+            <CodeBox title='侧栏黑色' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{MenuExampleVLight}</SyntaxHighlighter>}>
                 <Menu mode='vertical'>
                     <MenuItem />
                     <SubMenu open={true}>
@@ -184,7 +184,7 @@ export default () => {
                     </SubMenu>
                 </Menu>
             </CodeBox>
-            <CodeBox title='侧栏亮色' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{MenuExampleVLight}</SyntaxHighlighter>}>
+            <CodeBox title='侧栏亮色' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{MenuExampleVLight}</SyntaxHighlighter>}>
                 <Menu mode='vertical' theme='light'>
                     <MenuItem />
                     <SubMenu open={true}>

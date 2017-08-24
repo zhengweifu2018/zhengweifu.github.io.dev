@@ -65,7 +65,7 @@ export default () => {
     return <WorkPage siderSelectedKey='3-2-3' breadcrunbs={['工作', '前端开发', 'React 组件', 'Icon 图标']}>
         <div><Label content='如何使用' fontSize={20} height={40} color='#000'/></div>
         <div><Label content='使用 <Icon /> 标签声明组件，指定图标对应的 type 属性，示例代码如下:' fontSize={14} height={30}/></div>
-        <SyntaxHighlighter language='javascript' style={docco}>{IconCodeString}</SyntaxHighlighter>
+        <SyntaxHighlighter language='html' style={docco}>{IconCodeString}</SyntaxHighlighter>
         <div><Label content='图标列表' fontSize={20} height={40} color='#000'/></div>
         <CodeBox title='Icon 类型'>
             <GridList cols={6}>

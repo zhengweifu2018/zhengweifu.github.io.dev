@@ -1,0 +1,26 @@
+[{
+  "parameter": "value",
+  "intrduce": "输入默认值",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "height",
+  "intrduce": "输入框高度",
+  "type": "number",
+  "default": 20
+}, {
+  "parameter": "placeholder",
+  "intrduce": "提示文字",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "onChange",
+  "intrduce": "输入框值改变时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "style",
+  "intrduce": "设置图标的样式，例如 backgroundColor 和 color",
+  "type": "object",
+  "default": "-"
+}]

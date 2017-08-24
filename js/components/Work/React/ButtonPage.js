@@ -52,14 +52,14 @@ export default () => {
     return <WorkPage siderSelectedKey='3-2-2' breadcrunbs={['工作', '前端开发', 'React 组件', 'Button 按钮']}>
         <div><Label content='演示' fontSize={20} height={40} color='#000'/></div>
         <GridList cols={2}>
-            <CodeBox title='RaisedButton 类型' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{RaisedButtonExampleSimple}</SyntaxHighlighter>}>
+            <CodeBox title='RaisedButton 类型' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{RaisedButtonExampleSimple}</SyntaxHighlighter>}>
                 <GridList cols={3}>
                     <RaisedButton type='primary' label='Primary' fullWidth={true} disable={true}/>
                     <RaisedButton fullWidth={true}/>
                     <RaisedButton type='danger' label='Danger' fullWidth={true}/>
                 </GridList>
             </CodeBox>
-            <CodeBox title='RaisedButton 大小' codeComponent={<SyntaxHighlighter language='javascript' style={xcode}>{RaisedButtonExampleSize}</SyntaxHighlighter>}>
+            <CodeBox title='RaisedButton 大小' codeComponent={<SyntaxHighlighter language='jsx' style={xcode}>{RaisedButtonExampleSize}</SyntaxHighlighter>}>
                 <GridList cols={4}>
                     <RaisedButton type='primary' label='Large' fullWidth={true} size='large'/>
                     <RaisedButton type='primary' label='Normal' fullWidth={true}/>

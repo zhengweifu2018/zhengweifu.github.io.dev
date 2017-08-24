@@ -43,6 +43,18 @@ class SiderPage extends Component {
 			case '3-2-3':
 				webPath = '/work/reacticon';
 				break;
+			case '3-2-4':
+				webPath = '/work/reactgrid';
+				break;
+			case '3-2-5':
+				webPath = '/work/reactinput';
+				break;
+			case '3-2-6':
+				webPath = '/work/reactslider';
+				break;
+			case '3-2-7':
+				webPath = '/work/reactlabel';
+				break;
 			case '4-1':
 				webPath = '/work/php';
 				break;
@@ -71,31 +83,33 @@ class SiderPage extends Component {
 			onClick={this.onClickHandle.bind(this)}
 			style={{borderRight: 'none'}}
 		>
-			<Menu.Item key="1">
-				<Icon type="laptop" />三维制作
-			</Menu.Item>
-			<SubMenu key="2" title={<span><Icon type="laptop" />三维工具开发</span>}>
+			<Menu.Item key="1">三维制作</Menu.Item>
+			<SubMenu key="2" title={<span><Icon type="folder" />三维工具开发</span>}>
 	            <Menu.Item key="2-1">模型</Menu.Item>
 	            <Menu.Item key="2-2">灯光 / 渲染</Menu.Item>
 	            <Menu.Item key="2-4">杂项</Menu.Item>
           	</SubMenu>
-			<SubMenu key="3" title={<span><Icon type="laptop" />前端开发</span>}>
+			<SubMenu key="3" title={<span><Icon type="folder" />前端开发</span>}>
 	            <Menu.Item key="3-1">WebGL</Menu.Item>
-	            <SubMenu key="3-2" title={<span><Icon type="laptop" />React 组件</span>}>
+	            <SubMenu key="3-2" title={<span><Icon type="folder" />React 组件</span>}>
 	            	<Menu.Item key="3-2-1">Menu 菜单</Menu.Item>
 	            	<Menu.Item key="3-2-2">Button 按钮</Menu.Item>
 	            	<Menu.Item key="3-2-3">Icon 图标</Menu.Item>
+	            	<Menu.Item key="3-2-4">Grid 栅格</Menu.Item>
+	            	<Menu.Item key="3-2-5">Input 输入框</Menu.Item>
+	            	<Menu.Item key="3-2-6">Slider 滑动输入条</Menu.Item>
+	            	<Menu.Item key="3-2-7">Label 标签</Menu.Item>
 	            </SubMenu>
           	</SubMenu>
-			<SubMenu key="4" title={<span><Icon type="laptop" />后端开发</span>}>
+			<SubMenu key="4" title={<span><Icon type="folder" />后端开发</span>}>
 	            <Menu.Item key="4-1">PHP</Menu.Item>
           	</SubMenu>
-          	<SubMenu key="5" title={<span><Icon type="laptop" />引擎开发</span>}>
+          	<SubMenu key="5" title={<span><Icon type="folder" />引擎开发</span>}>
 	            <Menu.Item key="5-1">DVS3D</Menu.Item>
 	            <Menu.Item key="5-2">Unity3D</Menu.Item>
 	            <Menu.Item key="5-3">Unreal</Menu.Item>
           	</SubMenu>
-          	<SubMenu key="6" title={<span><Icon type="laptop" />平面工具开发</span>}>
+          	<SubMenu key="6" title={<span><Icon type="folder" />平面工具开发</span>}>
 	            <Menu.Item key="6-1">AI</Menu.Item>
           	</SubMenu>
 		</Menu>

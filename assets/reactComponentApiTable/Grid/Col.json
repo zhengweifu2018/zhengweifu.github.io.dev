@@ -1,0 +1,11 @@
+[{
+  "parameter": "width",
+  "intrduce": "宽度, width>=0 && width<=1",
+  "type": "number",
+  "default": 0.5
+}, {
+  "parameter": "style",
+  "intrduce": "自定义样式",
+  "type": "object",
+  "default": "-"
+}]

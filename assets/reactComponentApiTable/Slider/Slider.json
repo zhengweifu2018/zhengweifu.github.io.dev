@@ -1,0 +1,57 @@
+[{
+  "parameter": "barBgColor",
+  "intrduce": "条的颜色",
+  "type": "string",
+  "default": "GREY300"
+}, {
+  "parameter": "barHeight",
+  "intrduce": "条的高度",
+  "type": "number",
+  "default": 3
+}, {
+  "parameter": "dotBgColor",
+  "intrduce": "点的颜色",
+  "type": "string",
+  "default": "CYAN500"
+}, {
+  "parameter": "dotRadius",
+  "intrduce": "点的半径",
+  "type": "number",
+  "default": 6
+}, {
+  "parameter": "defaultValue",
+  "intrduce": "默认值",
+  "type": "number",
+  "default": 0.5
+}, {
+  "parameter": "min",
+  "intrduce": "最小值",
+  "type": "number",
+  "default": 0
+}, {
+  "parameter": "max",
+  "intrduce": "最大值",
+  "type": "number",
+  "default": 1
+}, {
+  "parameter": "step",
+  "intrduce": "步长",
+  "type": "number",
+  "default": 0.01
+}, {
+  "parameter": "onChange",
+  "intrduce": "值改变时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragStart",
+  "intrduce": "开始拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragEnd",
+  "intrduce": "结束拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}]
+

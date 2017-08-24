@@ -1,0 +1,92 @@
+[{
+  "parameter": "title",
+  "intrduce": "标题",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "titleColor",
+  "intrduce": "标题颜色",
+  "type": "string",
+  "default": "GREY500"
+}, {
+  "parameter": "titleWidth",
+  "intrduce": "标题宽度",
+  "type": "number",
+  "default": 50
+}, {
+  "parameter": "gutterY",
+  "intrduce": "垂直间隔",
+  "type": "number",
+  "default": 5
+}, {
+  "parameter": "labelColor",
+  "intrduce": "标签颜色",
+  "type": "string",
+  "default": "GREY500"
+}, {
+  "parameter": "labelFontSize",
+  "intrduce": "标签文字大小",
+  "type": "string",
+  "default": 13
+}, {
+  "parameter": "labelFontFamily",
+  "intrduce": "标签字体",
+  "type": "string",
+  "default": "\"Microsoft yahei\", Tahoma, Verdana, Arial, sans-serif"
+}, {
+  "parameter": "labelWidth",
+  "intrduce": "标签的宽度",
+  "type": "number",
+  "default": 30
+}, {
+  "parameter": "inputWidth",
+  "intrduce": "输入框的宽度",
+  "type": "number",
+  "default": 50
+}, {
+  "parameter": "cellHeight",
+  "intrduce": "单个控件的高度",
+  "type": "number",
+  "default": 30
+}, {
+  "parameter": "labels",
+  "intrduce": "默认标签列表",
+  "type": "array",
+  "default": "-"
+}, {
+  "parameter": "defaults",
+  "intrduce": "默认值列表",
+  "type": "array",
+  "default": "-"
+}, {
+  "parameter": "min",
+  "intrduce": "最小值",
+  "type": "number",
+  "default": 0
+}, {
+  "parameter": "max",
+  "intrduce": "最大值",
+  "type": "number",
+  "default": 1
+}, {
+  "parameter": "type",
+  "intrduce": "类型",
+  "type": "string: INT, NUMBER",
+  "default": "NUMBER"
+}, {
+  "parameter": "onChange",
+  "intrduce": "值改变时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragStart",
+  "intrduce": "开始拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragEnd",
+  "intrduce": "结束拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}]
+

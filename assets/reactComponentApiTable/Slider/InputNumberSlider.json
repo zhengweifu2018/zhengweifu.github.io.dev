@@ -1,0 +1,82 @@
+[{
+  "parameter": "label",
+  "intrduce": "标签",
+  "type": "string",
+  "default": "-"
+}, {
+  "parameter": "labelColor",
+  "intrduce": "标签颜色",
+  "type": "string",
+  "default": "GREY500"
+}, {
+  "parameter": "labelFontSize",
+  "intrduce": "标签文字大小",
+  "type": "string",
+  "default": 13
+}, {
+  "parameter": "labelFontFamily",
+  "intrduce": "标签字体",
+  "type": "string",
+  "default": "\"Microsoft yahei\", Tahoma, Verdana, Arial, sans-serif"
+}, {
+  "parameter": "labelWidth",
+  "intrduce": "标签的宽度",
+  "type": "number",
+  "default": 30
+}, {
+  "parameter": "inputWidth",
+  "intrduce": "输入框的宽度",
+  "type": "number",
+  "default": 50
+}, {
+  "parameter": "height",
+  "intrduce": "控件的高度",
+  "type": "number",
+  "default": 30
+}, {
+  "parameter": "fixed",
+  "intrduce": "保留小数点后面多少位",
+  "type": "number",
+  "default": 2
+}, {
+  "parameter": "dotRadius",
+  "intrduce": "点的半径",
+  "type": "number",
+  "default": 6
+}, {
+  "parameter": "defaultValue",
+  "intrduce": "默认值",
+  "type": "number",
+  "default": 0.5
+}, {
+  "parameter": "min",
+  "intrduce": "最小值",
+  "type": "number",
+  "default": 0
+}, {
+  "parameter": "max",
+  "intrduce": "最大值",
+  "type": "number",
+  "default": 1
+}, {
+  "parameter": "type",
+  "intrduce": "类型",
+  "type": "string: INT, NUMBER",
+  "default": "NUMBER"
+}, {
+  "parameter": "onChange",
+  "intrduce": "值改变时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragStart",
+  "intrduce": "开始拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}, {
+  "parameter": "onDragEnd",
+  "intrduce": "结束拖拽时调用",
+  "type": "function(event, value)",
+  "default": "-"
+}]
+

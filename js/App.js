@@ -23,6 +23,10 @@ import WebGLPage from './components/Work/WebGLPage';
 import MenuPage from './components/Work/React/MenuPage';
 import ButtonPage from './components/Work/React/ButtonPage';
 import IconPage from './components/Work/React/IconPage';
+import GridPage from './components/Work/React/GridPage';
+import InputPage from './components/Work/React/InputPage';
+import SliderPage from './components/Work/React/SliderPage';
+import LabelPage from './components/Work/React/LabelPage';
 
 // server
 import PhpPage from './components/Work/PhpPage';
@@ -48,6 +52,10 @@ let App = (props) => {
 		<Route exact path='/work/reactmenu' component={MenuPage}/>
 		<Route exact path='/work/reactbutton' component={ButtonPage}/>
 		<Route exact path='/work/reacticon' component={IconPage}/>
+		<Route exact path='/work/reactgrid' component={GridPage}/>
+		<Route exact path='/work/reactinput' component={InputPage}/>
+		<Route exact path='/work/reactslider' component={SliderPage}/>
+		<Route exact path='/work/reactlabel' component={LabelPage}/>
 		<Route exact path='/work/php' component={PhpPage}/>
 		<Route exact path='/work/enginedvs3d' component={ThreeEngineDVS3DPage}/>
 		<Route exact path='/work/engineunity3d' component={ThreeEngineUnity3DPage}/>
