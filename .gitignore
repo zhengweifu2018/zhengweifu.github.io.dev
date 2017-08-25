@@ -9,3 +9,5 @@ dist
 *.log
 *.swp
 *~
+index.html
+build/webpack.config.js
