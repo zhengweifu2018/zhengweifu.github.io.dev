@@ -37,9 +37,10 @@ const deleteFolderRecursive = (path) => {
 (() => {
 	const argvs = process.argv.splice(2);
 
-	let webpackCommonConfig = buildConfig();
+	console.log(argvs[1], argvs[1] != 0)
+	let webpackCommonConfig = buildConfig(false, argvs[1] != 0);
 	if(argvs[0] === "server") {
-		webpackCommonConfig = buildConfig(true);
+		webpackCommonConfig = buildConfig(true, argvs[1] != 0);
 		deleteFolderRecursive(path.resolve(__dirname, '../dist'));
 	}
 

@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd build && node build.js && webpack --colors",
+    "build_nsp": "cd build && node build.js local 0 && webpack --colors",
     "build_w": "cd build && node build.js && webpack --colors -w",
-    "build_server": "cd build && node build.js server && webpack -p --progress --profile --colors"
+    "build_w_nsp": "cd build && node build.js local 0 && webpack --colors -w",
+    "build_server": "cd build && node build.js server && webpack -p --progress --profile --colors",
+    "build_server_nsp": "cd build && node build.js server 0 && webpack -p --progress --profile --colors"
   },
   "repository": {
     "type": "git",

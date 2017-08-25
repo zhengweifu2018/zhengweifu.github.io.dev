@@ -1,4 +1,4 @@
-module.exports = (isService = false) => {
+module.exports = (isService = false, isSeparate = false) => {
     const uglifyJs = isService 
         ? "        new webpack.optimize.UglifyJsPlugin({compressor: {pure_getters: true,unsafe: true,unsafe_comps: true,screw_ie8: true,warnings: false}})," : '';
     const definePlugin = !isService 
@@ -8,6 +8,8 @@ module.exports = (isService = false) => {
         ? "    devtool: 'inline-source-map', /*eval-source-map*/"
         : '';//"    devtool: 'cheap-module-source-map',";
     const gz = "        new CompressionPlugin({asset: '[path].gz[query]', algorithm: 'gzip', test: /\.(js|html)$/, minRatio: 0.8}),";
+    const app = isSeparate ? "App" : "AppNoSeparate";
+    console.log(app);
     const webpackConfig = [
         "var webpack = require('webpack');",
         "var path = require('path');",
@@ -67,7 +69,7 @@ module.exports = (isService = false) => {
         "        chunkFilename: '[name].[chunkhash:5].chunk.js'",
         "    },",
         "    entry: {",
-        "        app: path.resolve(__dirname, '../js/App.js'),",
+        `        app: path.resolve(__dirname, '../js/${app}.js'),`,
         "        vendor: ['react', 'react-dom', 'react-router-dom', 'axios']",
         "    }",
         "};",

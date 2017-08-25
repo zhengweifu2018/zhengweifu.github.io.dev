@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
+
 
 // import IndexPage from './components/IndexPage';
 
@@ -63,6 +64,7 @@ import { HashRouter, Route, Link } from 'react-router-dom';
 // }
 
 import ROUTES from './Routes';
+
 let App = (props) => {
 	return <div>
 		{ROUTES.map((item, index) => {
