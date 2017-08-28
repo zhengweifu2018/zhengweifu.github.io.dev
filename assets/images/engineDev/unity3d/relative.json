@@ -1,9 +1,11 @@
 [{
-	"name": "DVS3D软件1",
+	"name": "虚拟体验店VR版本1",
 	"imagePath": "a.jpg",
-	"bgColor": "#000000"
+	"bgColor": "#000000",
+	"scriptPath": "IgniteVR.cs",
+	"type": "c#"
 }, {
-	"name": "DVS3D软件2",
+	"name": "虚拟体验店VR版本2",
 	"imagePath": "b.jpg",
 	"bgColor": "#000000"
 }]
