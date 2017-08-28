@@ -2,4 +2,12 @@
 	"name": "VR虚拟首饰店",
 	"imagePath": "jewelry.jpg",
 	"bgColor": "#000000"
+}, {
+	"name": "VR虚拟首饰店控制交互蓝图",
+	"imagePath": "BP_OrbitPawn.jpg",
+	"bgColor": "#000000"
+}, {
+	"name": "VR虚拟首饰店产品列表蓝图",
+	"imagePath": "BP_StepJewe.jpg",
+	"bgColor": "#000000"
 }]
