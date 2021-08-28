@@ -129,6 +129,11 @@ export default [
         path: '/work/engineunreal', 
         component: asyncComponent(() => import('./Components/Work/ThreeEngineUnrealPage'))
     },
+    {
+        exact: true, 
+        path: '/work/enginedesigncloud', 
+        component: asyncComponent(() => import('./Components/Work/ThreeEngineDecoDesignPage'))
+    },
 	{
         exact: true, 
         path: '/work/ai', 

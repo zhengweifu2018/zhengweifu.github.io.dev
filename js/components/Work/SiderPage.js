@@ -67,6 +67,9 @@ class SiderPage extends Component {
 			case '5-3':
 				webPath = '/work/engineunreal';
 				break;
+			case '5-4':
+				webPath = '/work/enginedesigncloud';
+				break;
 			case '6-1':
 				webPath = '/work/ai';
 				break;
@@ -107,7 +110,8 @@ class SiderPage extends Component {
           	<SubMenu key="5" title={<span><Icon type="folder" />引擎开发</span>}>
 	            <Menu.Item key="5-1">DVS3D</Menu.Item>
 	            <Menu.Item key="5-2">Unity3D</Menu.Item>
-	            <Menu.Item key="5-3">Unreal</Menu.Item>
+				<Menu.Item key="5-3">Unreal</Menu.Item>
+				<Menu.Item key="5-4">全装云设计</Menu.Item>
           	</SubMenu>
           	<SubMenu key="6" title={<span><Icon type="folder" />平面工具开发</span>}>
 	            <Menu.Item key="6-1">AI</Menu.Item>

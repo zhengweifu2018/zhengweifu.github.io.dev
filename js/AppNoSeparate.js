@@ -35,7 +35,7 @@ import PhpPage from './components/Work/PhpPage';
 import ThreeEngineDVS3DPage from './components/Work/ThreeEngineDVS3DPage';
 import ThreeEngineUnity3DPage from './components/Work/ThreeEngineUnity3DPage';
 import ThreeEngineUnrealPage from './components/Work/ThreeEngineUnrealPage';
-
+import ThreeEngineDecoDesignPage from './components/Work/ThreeEngineDecoDesignPage';
 //
 import AIPage from './components/Work/AIPage';
 
@@ -59,7 +59,8 @@ let App = (props) => {
 		<Route exact path='/work/php' component={PhpPage}/>
 		<Route exact path='/work/enginedvs3d' component={ThreeEngineDVS3DPage}/>
 		<Route exact path='/work/engineunity3d' component={ThreeEngineUnity3DPage}/>
-		<Route exact path='/work/engineunreal' component={ThreeEngineUnrealPage}/>
+		<Route exact path='/work/engineunreal' component={ThreeEngineUnrealPage} />
+		<Route exact path='/work/enginedesigncloud' component={ThreeEngineDecoDesignPage}/>
 		<Route exact path='/work/ai' component={AIPage}/>
 	</div>
 }

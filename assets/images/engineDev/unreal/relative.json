@@ -1,4 +1,9 @@
 [{
+	"name": "广阳岛项目开发",
+	"imagePath": "gyd.mp4",
+	"isVideo": true,
+	"bgColor": "#000000"
+}, {
 	"name": "VR虚拟首饰店",
 	"imagePath": "jewelry.jpg",
 	"bgColor": "#000000"

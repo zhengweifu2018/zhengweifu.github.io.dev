@@ -1,0 +1,24 @@
+[{
+	"name": "全装云设计平台一键渲染",
+	"imagePath": "DesignCloud.mp4",
+	"isVideo": true,
+	"bgColor": "#000000"
+}, {
+	"name": "导出并简化部品模型",
+	"imagePath": "ExportAndSimplifyPartModel.mp4",
+	"isVideo": true,
+	"bgColor": "#000000"
+}, {
+	"name": "3dsmax插件家装多方案渲染",
+	"imagePath": "RenderBy3DsmaxPlugin.mp4",
+	"isVideo": true,
+	"bgColor": "#000000"
+}, {
+	"name": "3dsmax精装多方案渲染插件",
+	"imagePath": "maxPlugin.gif",
+	"bgColor": "#000000"
+}, {
+	"name": "revit精装多方案插件",
+	"imagePath": "revitPlugin.gif",
+	"bgColor": "#000000"
+}]

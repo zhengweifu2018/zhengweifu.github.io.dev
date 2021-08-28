@@ -17,15 +17,16 @@ class CommonRenderRelative extends Component {
 
 		const relativeDir = this.props.relativePathName;
 
-		axios.get(relativeDir + this.props.relativeFileName).then((res) => {
+		axios.get(relativeDir + this.props.relativeFileName + '?' + (new Date()).getTime().toString()).then((res) => {
 			const data = res.data;
 			for(const d of data) {
 				// console.log(d);
-				let each = {name: d.name, bgColor: d.bgColor, type: d.type}
+				let each = {name: d.name, bgColor: d.bgColor, type: d.type, isVideo: false}
 				if(this.props.useIframe) {
 					each.webPath = d.webPath;
 					each.webHeight = d.webHeight;
 				} else {
+					each.isVideo = !!d.isVideo;
 					each.imagePath = relativeDir + d.imagePath;
 				}
 				// console.log(relativeDir + d.scriptPath)
@@ -63,7 +64,8 @@ class CommonRenderRelative extends Component {
 					width: '100%',
 					height: item.webHeight
 				}} src={item.webPath} frameBorder="0" scrolling="no" marginWidth="0" marginHeight="0"></iframe>
-			: <div style={{textAlign: 'center', backgroundColor: item.bgColor}}><img src={item.imagePath} style={{maxWidth: '100%'}} /></div>;
+				: <div style={{ textAlign: 'center', backgroundColor: item.bgColor }}>
+					{item.isVideo ? <video src={item.imagePath} style={{ maxWidth: '100%' }} controls="controls">您的浏览器不支持 video 标签。</video> : <img src={item.imagePath} style={{ maxWidth: '100%' }} />}</div>;
 
 			const shl = item.code !== undefined ? 
 				<SyntaxHighlighter language={item.type} style={xcode}>{item.code}</SyntaxHighlighter> : undefined;

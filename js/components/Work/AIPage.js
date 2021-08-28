@@ -6,7 +6,7 @@ import CommonRenderRelative from './CommonRenderRelative';
 
 import { WEB_ROOT } from '../../config';
 
-require('../../../assets/images/twoToolDev/ai/relative.pro');
+//require('../../../assets/images/twoToolDev/ai/relative.pro');
 
 export default () => {
 	return <WorkPage siderSelectedKey='6-1'  breadcrunbs={['工作', '平面工具开发', 'AI']}>
